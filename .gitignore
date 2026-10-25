@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training data (too large for GitHub - must use Git LFS or download separately)
+data/
+
+# Outputs
+outputs/
+
+# Old checkpoints (keep only best_model.pt via Git LFS)
+checkpoints_test/
+
+# Gemini
+.gemini/
+
+# Scratch / temporary
+scratch/
+*.log
